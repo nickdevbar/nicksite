@@ -1,43 +1,916 @@
-<!DOCTYPE html><html lang="en" data-astro-cid-sckkx6r4> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><meta name="generator" content="Astro v5.0.1"><link rel="icon" href="favicon.png"><title>Nick Dev Barrientos</title><script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"><script src="https://cdn.jsdelivr.net/npm/wowjs/dist/wow.min.js"></script><script>
-			new WOW().init();
-		</script><link rel="stylesheet" href="index.Bre79twx.css"></head> <body data-astro-cid-sckkx6r4>  <div class="navbar p-0 container mx-auto md:px-0 px-4"> <div class="flex-1"> <a class="text-xl" href="/"> <img src="logo.png" alt="Logo" style="width:42px;height:42px;border-radius: 100%;"> </a> </div> <div class="flex-none"> <ul class="menu menu-horizontal p-0 gap-2"> <li> <a href="#inicio" class> Inicio </a> </li><li> <a href="#codigos" class> Código </a> </li><li> <a href="#disenos" class> Diseños </a> </li> </ul> </div> </div> <div class="px-4 pb-4 pt-1" id="inicio" data-astro-cid-mmc7otgs> <div class="flex flex-col p-8 gap-10 rounded-lg" data-astro-cid-mmc7otgs> <div class="w-full flex md:flex-row flex-col justify-center md:gap-8 gap-0" data-astro-cid-mmc7otgs> <div class="wow animate__animated animate__fadeInLeft" data-astro-cid-mmc7otgs> <img src="nick.png" alt="Logo" class="md:w-96 md:h-96 w-full imagen-bombeo" loading="lazy" class="rounded" data-astro-cid-mmc7otgs> </div> <div class="flex flex-col justify-center wrap wow animate__animated animate__fadeInRight" data-astro-cid-mmc7otgs> <h1 class="text-4xl md:text-5xl font-bold text-white" data-astro-cid-mmc7otgs>
-NICOLAY BARRIENTOS
-</h1> <h2 class="text-2xl md:text-4xl font-light mt-2 text-slate-300" data-astro-cid-mmc7otgs>
-Desarrollador | Diseñador
-</h2> <h3 class="text-slate-600 mt-2 flex gap-4" data-astro-cid-mmc7otgs> <span class="iconify" data-icon="mdi:internet" data-inline="false" data-width="42" data-astro-cid-mmc7otgs></span> <span class="iconify" data-icon="mdi:code" data-inline="false" data-width="42" data-astro-cid-mmc7otgs></span> <span class="iconify" data-icon="mdi:antenna" data-inline="false" data-width="42" data-astro-cid-mmc7otgs></span> </h3> </div> </div> <div class="flex gap-4 md:justify-evenly justify-between wrap" data-astro-cid-mmc7otgs> <a href="https://wa.me/573239331730" target="_blank" data-astro-cid-mmc7otgs><span class="iconify iconSocial w-8 h-8 md:w-10 md:h-10 wow animate__animated animate__fadeInUp" data-icon="fa-brands:whatsapp" data-wow-delay="0s" aria-hidden="true" data-astro-cid-mmc7otgs></span></a> <a href="mailto:nickdevbarrientos@gmail.com" target="_blank" data-astro-cid-mmc7otgs><span class="iconify iconSocial w-8 h-8 md:w-10 md:h-10 wow animate__animated animate__fadeInUp" data-icon="fa6-regular:envelope" data-wow-delay="0.2s" aria-hidden="true" data-astro-cid-mmc7otgs></span></a> <a href="https://www.instagram.com/studioweb180/" target="_blank" data-astro-cid-mmc7otgs><span class="iconify iconSocial w-8 h-8 md:w-10 md:h-10 wow animate__animated animate__fadeInUp" data-icon="fa-brands:instagram" data-wow-delay="0.4s" aria-hidden="true" data-astro-cid-mmc7otgs></span></a> <a href="https://www.linkedin.com/in/nicolay-barrientos-dev/" target="_blank" data-astro-cid-mmc7otgs><span class="iconify iconSocial w-8 h-8 md:w-10 md:h-10 wow animate__animated animate__fadeInUp" data-icon="fa-brands:linkedin" data-wow-delay="0.6s" aria-hidden="true" data-astro-cid-mmc7otgs></span></a> <a href="https://t.me/nicolayBarrientos" target="_blank" data-astro-cid-mmc7otgs><span class="iconify iconSocial w-8 h-8 md:w-10 md:h-10 wow animate__animated animate__fadeInUp" data-icon="fa-brands:telegram" data-wow-delay="0.8s" aria-hidden="true" data-astro-cid-mmc7otgs></span></a> <a href="https://github.com/nickdevbar" target="_blank" data-astro-cid-mmc7otgs><span class="iconify iconSocial w-8 h-8 md:w-10 md:h-10 wow animate__animated animate__fadeInUp" data-icon="fa-brands:github" data-wow-delay="1s" aria-hidden="true" data-astro-cid-mmc7otgs></span></a> </div> </div> </div> <div class="px-0 pb-4 pt-1 md:px-4 mb-2"> <div class="flex flex-col md:p-8 p-4 gap-10 bg-slate-900 rounded-lg"> <h4 class="text-3xl font-bold text-white">
-Sobre mi<span class="text-blue-500">__</span> </h4> <div class="flex flex-col md:flex-row md:gap-20 gap-10"> <p class="text-slate-200 text-xl font-light md:w-1/2 w-full text-justify wow animate__animated animate__flipInX">
-Desarrollador web front-end apasionado, especializado en crear
+<!DOCTYPE html>
+<html lang="en" data-astro-cid-sckkx6r4>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="generator" content="Astro v5.0.1">
+    <link rel="icon" href="favicon.png">
+    <title>Nick Dev Barrientos</title>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/wowjs/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <link rel="stylesheet" href="index.BdJ5OMDi.css">
+</head>
+
+<body data-astro-cid-sckkx6r4>
+    <div class="navbar p-0 container mx-auto md:px-0 px-4">
+        <div class="flex-1"> <a class="text-xl" href="/"> <img src="logo.png" alt="Logo"
+                    style="width:42px;height:42px;border-radius: 100%;"> </a> </div>
+        <div class="flex-none">
+            <ul class="menu menu-horizontal p-0 gap-2">
+                <li> <a href="#inicio" class> Inicio </a> </li>
+                <li> <a href="#codigos" class> Código </a> </li>
+                <li> <a href="#disenos" class> Diseños </a> </li>
+            </ul>
+        </div>
+    </div>
+    <div class="px-4 pb-4 pt-1" id="inicio" data-astro-cid-mmc7otgs>
+        <div class="flex flex-col p-8 gap-10 rounded-lg" data-astro-cid-mmc7otgs>
+            <div class="w-full flex md:flex-row flex-col justify-center md:gap-8 gap-0" data-astro-cid-mmc7otgs>
+                <div class="wow animate__animated animate__fadeInLeft" data-astro-cid-mmc7otgs> <img src="nick.png"
+                        alt="Logo" class="md:w-96 md:h-96 w-full imagen-bombeo" loading="lazy" class="rounded"
+                        data-astro-cid-mmc7otgs> </div>
+                <div class="flex flex-col justify-center wrap wow animate__animated animate__fadeInRight"
+                    data-astro-cid-mmc7otgs>
+                    <h1 class="text-4xl md:text-5xl font-bold text-white" data-astro-cid-mmc7otgs>
+                        NICOLAY BARRIENTOS
+                    </h1>
+                    <h2 class="text-2xl md:text-4xl font-light mt-2 text-slate-300" data-astro-cid-mmc7otgs>
+                        Desarrollador | Diseñador
+                    </h2>
+                    <h3 class="text-slate-600 mt-2 flex gap-4" data-astro-cid-mmc7otgs> <span class="iconify"
+                            data-icon="mdi:internet" data-inline="false" data-width="42" data-astro-cid-mmc7otgs></span>
+                        <span class="iconify" data-icon="mdi:code" data-inline="false" data-width="42"
+                            data-astro-cid-mmc7otgs></span> <span class="iconify" data-icon="mdi:antenna"
+                            data-inline="false" data-width="42" data-astro-cid-mmc7otgs></span>
+                    </h3>
+                </div>
+            </div>
+            <div class="flex gap-4 md:justify-evenly justify-between wrap" data-astro-cid-mmc7otgs> <a
+                    href="https://wa.me/573239331730" target="_blank" data-astro-cid-mmc7otgs><span
+                        class="iconify iconSocial w-8 h-8 md:w-10 md:h-10 wow animate__animated animate__fadeInUp"
+                        data-icon="fa-brands:whatsapp" data-wow-delay="0s" aria-hidden="true"
+                        data-astro-cid-mmc7otgs></span></a> <a href="mailto:nickdevbarrientos@gmail.com" target="_blank"
+                    data-astro-cid-mmc7otgs><span
+                        class="iconify iconSocial w-8 h-8 md:w-10 md:h-10 wow animate__animated animate__fadeInUp"
+                        data-icon="fa6-regular:envelope" data-wow-delay="0.2s" aria-hidden="true"
+                        data-astro-cid-mmc7otgs></span></a> <a href="https://www.instagram.com/studioweb180/"
+                    target="_blank" data-astro-cid-mmc7otgs><span
+                        class="iconify iconSocial w-8 h-8 md:w-10 md:h-10 wow animate__animated animate__fadeInUp"
+                        data-icon="fa-brands:instagram" data-wow-delay="0.4s" aria-hidden="true"
+                        data-astro-cid-mmc7otgs></span></a> <a
+                    href="https://www.linkedin.com/in/nicolay-barrientos-dev/" target="_blank"
+                    data-astro-cid-mmc7otgs><span
+                        class="iconify iconSocial w-8 h-8 md:w-10 md:h-10 wow animate__animated animate__fadeInUp"
+                        data-icon="fa-brands:linkedin" data-wow-delay="0.6s" aria-hidden="true"
+                        data-astro-cid-mmc7otgs></span></a> <a href="https://t.me/nicolayBarrientos" target="_blank"
+                    data-astro-cid-mmc7otgs><span
+                        class="iconify iconSocial w-8 h-8 md:w-10 md:h-10 wow animate__animated animate__fadeInUp"
+                        data-icon="fa-brands:telegram" data-wow-delay="0.8s" aria-hidden="true"
+                        data-astro-cid-mmc7otgs></span></a> <a href="https://github.com/nickdevbar" target="_blank"
+                    data-astro-cid-mmc7otgs><span
+                        class="iconify iconSocial w-8 h-8 md:w-10 md:h-10 wow animate__animated animate__fadeInUp"
+                        data-icon="fa-brands:github" data-wow-delay="1s" aria-hidden="true"
+                        data-astro-cid-mmc7otgs></span></a> </div>
+        </div>
+    </div>
+    <div class="flex flex-col md:p-12 p-4 gap-10 bg-slate-900">
+        <h4 class="text-2xl font-bold text-white">
+            SOBRE MI<span class="text-blue-500">__</span> </h4>
+        <div class="flex flex-col md:flex-row md:gap-20 gap-10">
+            <p
+                class="text-slate-200 text-xl font-light md:w-1/2 w-full text-justify wow animate__animated animate__flipInX">
+                Desarrollador web front-end apasionado, especializado en crear
                 interfaces dinámicas y atractivas. Con dominio de tecnologías
                 modernas como React, Tailwind y Bootstrap, transformo diseños
-                creativos en experiencias web interactivas y funcionales. Mi
-                enfoque combina diseño técnico e innovación para desarrollar
-                soluciones web que destacan por su rendimiento y usabilidad
-                excepcional.
-</p> <p class="text-slate-200 text-xl font-light md:w-1/2 w-full text-justify wow animate__animated animate__flipInX">
-Manejo tambien soluciones robustas y escalables para
-                aplicaciones web. Con experiencia en tecnologías como Node.js y
-                PHP, desarrollo API eficientes que garantizan una comunicación
-                fluida entre el cliente y el servidor. Tengo dominio en la
-                gestión y optimización de bases de datos, trabajando con MySQL y
-                PostgreSQL para diseñar esquemas sólidos y manejar transacciones
-                de datos de manera segura.
-</p> </div> </div> </div> <div class="px-0 pb-4 pt-1 md:px-4"> <div class="flex flex-col md:p-8 p-4 gap-10 bg-slate-100 rounded-lg"> <h4 class="text-3xl font-bold text-slate-800">
-Experiencia<span class="text-blue-500">__</span> </h4> <div class="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-4"> <div class="card bg-slate-900 wow animate__animated animate__fadeInUp text-neutral-content"> <div class="card-body items-center text-center"> <h2 class="card-title text-sky-500 text-2xl">SOPORTE TECNICO</h2> <h3 class="text-slate-200 text-lg hover:text-sky-500"> <a href="https://toptenfunding.com/" target="_blank">TOP TEN FUNDING</a> </h3> <div class="divider m-0"></div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">🎧 Atención al cliente</div> <div class="collapse-content text-slate-300"> <p>Transformé el departamento de soporte, implementando estrategias que mejoraron la satisfacción del cliente en un 65%</p> </div> </div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">⌨️ CRM Personalizado</div> <div class="collapse-content text-slate-300"> <p>Revolucioné la gestión de clientes mediante un CRM personalizado que redujo tiempos de respuesta un 40%</p> </div> </div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">🔧 Herramientas para procesos</div> <div class="collapse-content text-slate-300"> <p>Automaticé procesos con herramientas de software que eliminaron cuellos de botella operativos</p> </div> </div> <div class="divider m-0"></div> <div class="card-actions justify-end"> <h3 class="text-lg text-slate-500">OCT/2023 - DIC/2024</h3> </div> </div> </div> <div class="card bg-slate-900 wow animate__animated animate__fadeInUp text-neutral-content  "> <div class="card-body items-center text-center"> <h2 class="card-title text-sky-500 text-2xl">PROGRAMADOR FRONTEND</h2> <h3 class="text-slate-200 text-lg hover:text-sky-500"> <a href="https://uxsistemas.com/" target="_blank">UX SISTEMAS</a> </h3> <div class="divider m-0"></div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">🖥️ Desarrollo de interfaces</div> <div class="collapse-content text-slate-300"> <p>Diseñé interfaces interactivas que aumentaron el engagement del usuario en un 55%</p> </div> </div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">🌐 Landing Pages en Wordpress</div> <div class="collapse-content text-slate-300"> <p>Desarrollé landing pages en WordPress que incrementaron ventas y visitas en un 60%</p> </div> </div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">📱 Interfaces responsivas</div> <div class="collapse-content text-slate-300"> <p>Implementé soluciones frontend que optimizaron la experiencia digital de los clientes</p> </div> </div> <div class="divider m-0"></div> <div class="card-actions justify-end"> <h3 class="text-lg text-slate-500">DIC/2022 - ABR/2023</h3> </div> </div> </div> <div class="card bg-slate-900 wow animate__animated animate__fadeInUp text-neutral-content  "> <div class="card-body items-center text-center"> <h2 class="card-title text-sky-500 text-2xl">PROGRAMADOR FULLSTACK</h2> <h3 class="text-slate-200 text-lg hover:text-sky-500"> <a href="https://app.rhinoisp.com/" target="_blank">INTERCOD</a> </h3> <div class="divider m-0"></div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">📡 CRM Redes ISP</div> <div class="collapse-content text-slate-300"> <p>🌐 Construí un sistema de gestión de redes ISP que consolidó operaciones de 3 departamentos hasta ahora</p> </div> </div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">🐬 Optimización MYSQL</div> <div class="collapse-content text-slate-300"> <p>Optimicé bases de datos MySQL reduciendo tiempos de consulta un 70%</p> </div> </div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">🖱️ Desarrollo de modulos</div> <div class="collapse-content text-slate-300"> <p>Implementé módulos en PHP innovadores que automatizaron procesos manuales</p> </div> </div> <div class="divider m-0"></div> <div class="card-actions justify-end"> <h3 class="text-lg text-slate-500">DIC/2019 - AGO/2022</h3> </div> </div> </div> <div class="card bg-slate-900 wow animate__animated animate__fadeInUp text-neutral-content"> <div class="card-body items-center text-center"> <h2 class="card-title text-sky-500 text-2xl">DISEÑADOR GRAFICO</h2> <h3 class="text-slate-200 text-lg hover:text-sky-500"> <a href="https://www.instagram.com/msproaudio.spa/" target="_blank">PROAUDIO AUTOSPA</a> </h3> <div class="divider m-0"></div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">👁️ Identidad visual</div> <div class="collapse-content text-slate-300"> <p>Rediseñé la identidad corporativa, posicionando la marca en redes sociales</p> </div> </div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">🎨 Marketing de redes</div> <div class="collapse-content text-slate-300"> <p>Desarrollé estrategia de marketing digital que incrementó visibilidad y seguidores un 60%</p> </div> </div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">🖌️ Historias y publicaciones</div> <div class="collapse-content text-slate-300"> <p>Creé material gráfico que capturó la esencia de la marca</p> </div> </div> <div class="divider m-0"></div> <div class="card-actions justify-end"> <h3 class="text-lg text-slate-500">DIC/2019 - AGO/2022</h3> </div> </div> </div> <div class="card bg-slate-900 wow animate__animated animate__fadeInUp text-neutral-content"> <div class="card-body items-center text-center"> <h2 class="card-title text-sky-500 text-2xl">DESARROLLADOR WEB</h2> <h3 class="text-slate-200 text-lg hover:text-sky-500"> <a href="https://jxsoft.digital/" target="_blank">JXSOFT</a> </h3> <div class="divider m-0"></div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">👨‍💻 Colaborador en desarrollo</div> <div class="collapse-content text-slate-300"> <p>Contribuí al diseño y desarrollo de funcionalidades clave en los proyectos de la startup, optimizando el rendimiento de las aplicaciones.</p> </div> </div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">🎨 Diseñador visual</div> <div class="collapse-content text-slate-300"> <p>Creé conceptos gráficos y prototipos interactivos, asegurando una experiencia de usuario atractiva y consistente con la identidad de la marca.</p> </div> </div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">🛠️ Solución de errores</div> <div class="collapse-content text-slate-300"> <p>Diagnostiqué y resolví problemas técnicos en tiempo récord, garantizando el correcto funcionamiento de los sistemas en producción.</p> </div> </div> <div class="divider m-0"></div> <div class="card-actions justify-end"> <h3 class="text-lg text-slate-500">TIEMPO PARCIAL</h3> </div> </div> </div> <div class="card bg-slate-900 wow animate__animated animate__fadeInUp text-neutral-content"> <div class="card-body items-center text-center"> <h2 class="card-title text-sky-500 text-2xl">DESARROLLADOR FULL</h2> <h3 class="text-slate-200 text-lg hover:text-sky-500"> <a href="https://lotto.jxsoft.digital/" target="_blank">LUCKY LOTTO</a> </h3> <div class="divider m-0"></div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">📊 CRM de venta de rifas</div> <div class="collapse-content text-slate-300"> <p>Implementé un sistema que gestiona de manera eficiente las ventas de rifas, desde el registro de usuarios hasta el seguimiento de transacciones.</p> </div> </div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">💳 Pasarela de pagos incluida</div> <div class="collapse-content text-slate-300"> <p>Integré servicios de pago seguros y confiables, facilitando transacciones rápidas y sin interrupciones.</p> </div> </div> <div class="collapse text-start"> <input type="radio" name="my-accordion-1"> <div class="collapse-title text-xl text-slate-400">🛠️ Panel administrativo</div> <div class="collapse-content text-slate-300"> <p>Desarrollé un panel intuitivo que permite a los administradores gestionar rifas, usuarios y reportes en tiempo real.</p> </div> </div> <div class="divider m-0"></div> <div class="card-actions justify-end"> <h3 class="text-lg text-slate-500">TIEMPO PARCIAL</h3> </div> </div> </div> </div> </div> </div> <div class="px-0 pb-4 pt-1 md:px-4"> <div class="flex flex-col md:p-8 p-4 gap-10"> <h4 class="text-3xl font-bold text-white">
-Tecnologias<span class="text-blue-500">__</span> </h4> <div class="grid grid-cols-1 md:grid-cols-4"> <div class="card bg-zinc-950 rounded-none text-neutral-content wow animate__animated animate__flipInY" data-wow-delay="0s"> <div class="card-body items-center text-center"> <h2 class="card-title text-slate-600 text-2xl mb-3">FRONTEND</h2> <div class="grid grid-cols-3 gap-4"> <span class="iconify" data-icon="vscode-icons:file-type-astro" data-inline="false" data-width="56"></span> <span class="iconify" data-icon="vscode-icons:file-type-js-official" data-inline="false" data-width="56"></span> <span class="iconify" data-icon="vscode-icons:file-type-reactjs" data-inline="false" data-width="56"></span> <span class="iconify" data-icon="devicon:bootstrap" data-inline="false" data-width="56"></span> <span class="iconify" data-icon="vscode-icons:file-type-tailwind" data-inline="false" data-width="56"></span> <span class="iconify" data-icon="devicon:jquery" data-inline="false" data-width="56"></span> </div> </div> </div> <div class="card bg-zinc-950 rounded-none text-neutral-content wow animate__animated animate__flipInY" data-wow-delay="0.4s"> <div class="card-body items-center text-center"> <h2 class="card-title text-slate-600 text-2xl mb-3">BACKEND</h2> <div class="grid grid-cols-2 gap-4"> <span class="iconify" data-icon="vscode-icons:file-type-php3" data-inline="false" data-width="56"></span> <span class="iconify" data-icon="vscode-icons:file-type-node" data-inline="false" data-width="56"></span> <span class="iconify" data-icon="devicon:java" data-inline="false" data-width="56"></span> <span class="iconify" data-icon="devicon:python" data-inline="false" data-width="56"></span> </div> </div> </div> <div class="card bg-zinc-950 rounded-none text-neutral-content wow animate__animated animate__flipInY" data-wow-delay="0.8s"> <div class="card-body items-center text-center"> <h2 class="card-title text-slate-600 text-2xl mb-3">BD</h2> <div class="grid grid-cols-2 gap-4"> <span class="iconify" data-icon="vscode-icons:file-type-mysql" data-inline="false" data-width="56"></span> <span class="iconify" data-icon="devicon:postgresql" data-inline="false" data-width="56"></span> <span class="iconify" data-icon="devicon:redis" data-inline="false" data-width="56"></span> <span class="iconify" data-icon="vscode-icons:file-type-mongo" data-inline="false" data-width="56"></span> </div> </div> </div> <div class="card bg-zinc-950 rounded-none text-neutral-content wow animate__animated animate__flipInY" data-wow-delay="1.2s"> <div class="card-body items-center text-center"> <h2 class="card-title text-slate-600 text-2xl mb-3">DESIGN</h2> <div class="grid grid-cols-2 gap-4"> <span class="iconify" data-icon="vscode-icons:file-type-ai" data-inline="false" data-width="56"></span> <span class="iconify" data-icon="vscode-icons:file-type-photoshop" data-inline="false" data-width="56"></span> <span class="iconify" data-icon="devicon:figma" data-inline="false" data-width="56"></span> <span class="iconify" data-icon="simple-icons:coreldraw" data-inline="false" data-width="56"></span> </div> </div> </div> </div> </div> </div> <div class="px-0 pb-4 pt-1 md:px-4" id="codigos"> <div class="flex flex-col md:p-8 p-4 gap-10 bg-slate-100 rounded-lg"> <h4 class="text-3xl font-bold text-slate-800">
-Proyectos<span class="text-blue-500">__</span> </h4> <div class="flex flex-col"> <div class="card rounded-none"> <div class="card-body p-0 flex flex-col md:flex-row wow animate__animated animate__slideInLeft gap-3 md:gap-6"> <!-- Imagen del proyecto --> <div class="md:w-1/3 flex items-center justify-center"> <div class="mockup-phone shadow-2xl"> <div class="camera"></div> <div class="display"> <div class="artboard artboard-demo phone-1"> <img src="webs/luckyLotto.webp" alt="Lucky Lotto" loading="lazy" class="max-w-full h-auto object-cover"> </div> </div> </div> </div> <!-- Contenido del proyecto --> <div class="md:w-2/3 flex md:items-center"> <div class="card-body items-start md:gap-4"> <h2 class="card-title text-slate-800 text-2xl md:text-5xl font-black uppercase"> Lucky Lotto </h2> <a href="https://lotto.jxsoft.digital/" target="_blank" class="text-sky-500 text-lg md:text-3xl flex items-center">
-Ver sitio web <span class="iconify" data-icon="mdi:link-variant" data-inline="false"></span> </a> <p class="text-slate-600 md:text-2xl font-light text-start"> Una aplicación interactiva para participar en sorteos y loterías. Su diseño centrado en el usuario permite una navegación fluida, incluyendo pasarela de pagos, y automatizaciones para mejorar la experiencia de usuario, como la selección del ganador y la verificación en las transacciones. </p> <div class="flex flex-wrap gap-3"> <div class="badge badge-primary badge-outline">PHP</div><div class="badge badge-primary badge-outline">MySQL</div><div class="badge badge-primary badge-outline">Bootstrap</div><div class="badge badge-primary badge-outline">jQuery</div><div class="badge badge-primary badge-outline">ePayco</div> </div> </div> </div> </div> <hr class="border-slate-300 my-4"> </div><div class="card rounded-none"> <div class="card-body p-0 flex flex-col md:flex-row md:flex-row-reverse wow animate__animated animate__slideInRight gap-3 md:gap-6"> <!-- Imagen del proyecto --> <div class="md:w-1/3 flex items-center justify-center"> <div class="mockup-phone shadow-2xl"> <div class="camera"></div> <div class="display"> <div class="artboard artboard-demo phone-1"> <img src="webs/studio180.webp" alt="Studio | 180" loading="lazy" class="max-w-full h-auto object-cover"> </div> </div> </div> </div> <!-- Contenido del proyecto --> <div class="md:w-2/3 flex md:items-center"> <div class="card-body md:items-end md:gap-4"> <h2 class="card-title text-slate-800 text-2xl md:text-5xl font-black uppercase"> Studio | 180 </h2> <a href="https://nickdevbar.github.io/studio180/" target="_blank" class="text-sky-500 text-lg md:text-3xl flex items-center">
-Ver sitio web <span class="iconify" data-icon="mdi:link-variant" data-inline="false"></span> </a> <p class="text-slate-600 md:text-2xl font-light md:text-end"> Landing Page para agencia especializada en marketing digital, desarrollo web y diseño gráfico. Este proyecto exhibe un portafolio integral de servicios que incluyen estrategias SEO, campañas publicitarias y creación de identidades visuales, destacando por su enfoque en potenciar negocios online. </p> <div class="flex flex-wrap gap-3"> <div class="badge badge-primary badge-outline">HTML</div><div class="badge badge-primary badge-outline">Tailwind</div><div class="badge badge-primary badge-outline">jQuery</div> </div> </div> </div> </div> <hr class="border-slate-300 my-4"> </div><div class="card rounded-none"> <div class="card-body p-0 flex flex-col md:flex-row wow animate__animated animate__slideInLeft gap-3 md:gap-6"> <!-- Imagen del proyecto --> <div class="md:w-1/3 flex items-center justify-center"> <div class="mockup-phone shadow-2xl"> <div class="camera"></div> <div class="display"> <div class="artboard artboard-demo phone-1"> <img src="webs/trx.webp" alt="TRX Academy" loading="lazy" class="max-w-full h-auto object-cover"> </div> </div> </div> </div> <!-- Contenido del proyecto --> <div class="md:w-2/3 flex md:items-center"> <div class="card-body items-start md:gap-4"> <h2 class="card-title text-slate-800 text-2xl md:text-5xl font-black uppercase"> TRX Academy </h2> <a href="https://nickdevbar.github.io/trxacademy/" target="_blank" class="text-sky-500 text-lg md:text-3xl flex items-center">
-Ver sitio web <span class="iconify" data-icon="mdi:link-variant" data-inline="false"></span> </a> <p class="text-slate-600 md:text-2xl font-light text-start"> Una landing page que presenta los servicios educativos de un profesor de trading. El diseño se centra en comunicar claramente la experiencia y las ofertas disponibles, proporcionando información clave para aquellos interesados en aprender sobre mercados financieros y estrategias de inversión. </p> <div class="flex flex-wrap gap-3"> <div class="badge badge-primary badge-outline">HTML</div><div class="badge badge-primary badge-outline">Tailwind</div><div class="badge badge-primary badge-outline">jQuery</div> </div> </div> </div> </div> <hr class="border-slate-300 my-4"> </div><div class="card rounded-none"> <div class="card-body p-0 flex flex-col md:flex-row md:flex-row-reverse wow animate__animated animate__slideInRight gap-3 md:gap-6"> <!-- Imagen del proyecto --> <div class="md:w-1/3 flex items-center justify-center"> <div class="mockup-phone shadow-2xl"> <div class="camera"></div> <div class="display"> <div class="artboard artboard-demo phone-1"> <img src="webs/topten.webp" alt="Top Ten Funding" loading="lazy" class="max-w-full h-auto object-cover"> </div> </div> </div> </div> <!-- Contenido del proyecto --> <div class="md:w-2/3 flex md:items-center"> <div class="card-body md:items-end md:gap-4"> <h2 class="card-title text-slate-800 text-2xl md:text-5xl font-black uppercase"> Top Ten Funding </h2> <a href="https://toptenfunding.com/" target="_blank" class="text-sky-500 text-lg md:text-3xl flex items-center">
-Ver sitio web <span class="iconify" data-icon="mdi:link-variant" data-inline="false"></span> </a> <p class="text-slate-600 md:text-2xl font-light md:text-end"> Una landing page que presenta los servicios educativos de un profesor de trading. El diseño se centra en comunicar claramente la experiencia y las ofertas disponibles, proporcionando información clave para aquellos interesados en aprender sobre mercados financieros y estrategias de inversión. </p> <div class="flex flex-wrap gap-3"> <div class="badge badge-primary badge-outline">PHP</div><div class="badge badge-primary badge-outline">MySQL</div><div class="badge badge-primary badge-outline">jQuery</div><div class="badge badge-primary badge-outline">Redis</div><div class="badge badge-primary badge-outline">NodeJS</div> </div> </div> </div> </div> <hr class="border-slate-300 my-4"> </div> </div> </div> </div> <div class="px-0 pb-4 pt-1 md:px-4" id="disenos"> <div class="flex flex-col md:p-8 p-4 gap-10"> <h4 class="text-3xl font-bold text-white">
-Diseños<span class="text-blue-500">__</span> </h4> <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-6"> <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX" data-wow-delay="0.0s"> <figure class="md:w-2/3"> <img class="w-full" src="designs/bahia.webp" alt="POST BAHIA" loading="lazy"> </figure> <div class="card-body w-full"> <h2 class="card-title uppercase text-white font-black"> POST BAHIA </h2> <p>Explora la fusión de ingredientes locales y la pasión por la cerveza artesanal, experimentando con nuevas técnicas e innovadores sabores.</p> </div> </div><div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX" data-wow-delay="0.1s"> <figure class="md:w-2/3"> <img class="w-full" src="designs/erickGabriel.webp" alt="Erick Gabriel" loading="lazy"> </figure> <div class="card-body w-full"> <h2 class="card-title uppercase text-white font-black"> Erick Gabriel </h2> <p>Diseño de un logo personal que incluye una paleta de colores cuidadosamente seleccionada, tipografías únicas y formatos versátiles.</p> </div> </div><div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX" data-wow-delay="0.2s"> <figure class="md:w-2/3"> <img class="w-full" src="designs/tatianaBarrientos.webp" alt="Fresas Con Crema" loading="lazy"> </figure> <div class="card-body w-full"> <h2 class="card-title uppercase text-white font-black"> Fresas Con Crema </h2> <p>Creación de un logo comercial que refleja dulzura y frescura, con una paleta de colores armónica, fuentes atractivas y múltiples formatos.</p> </div> </div><div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX" data-wow-delay="0.3s"> <figure class="md:w-2/3"> <img class="w-full" src="designs/proaudio.webp" alt="ProAudio AutoSpa" loading="lazy"> </figure> <div class="card-body w-full"> <h2 class="card-title uppercase text-white font-black"> ProAudio AutoSpa </h2> <p>Diseño de un logo empresarial que transmite profesionalismo y modernidad, acompañado de una paleta cromática y fuentes elegantes.</p> </div> </div><div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX" data-wow-delay="0.4s"> <figure class="md:w-2/3"> <img class="w-full" src="designs/tatiana.webp" alt="Tatiana Barrientos" loading="lazy"> </figure> <div class="card-body w-full"> <h2 class="card-title uppercase text-white font-black"> Tatiana Barrientos </h2> <p>Diseño de un logo comercial para una tienda de ropa, enfocado en estilo y moda, destacando la identidad única de la marca.</p> </div> </div><div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX" data-wow-delay="0.5s"> <figure class="md:w-2/3"> <img class="w-full" src="designs/tso.webp" alt="TSO" loading="lazy"> </figure> <div class="card-body w-full"> <h2 class="card-title uppercase text-white font-black"> TSO </h2> <p>Logo empresarial con estética minimalista, inspirado en el barco de Teseo para simbolizar renovación, reestructuración y reinvención.</p> </div> </div><div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX" data-wow-delay="0.6s"> <figure class="md:w-2/3"> <img class="w-full" src="designs/tuTattoo.webp" alt="TuTattoo" loading="lazy"> </figure> <div class="card-body w-full"> <h2 class="card-title uppercase text-white font-black"> TuTattoo </h2> <p>Diseño de un logo comercial para una tienda de tatuajes, destacando estilos tradicionales como mandalas y tipografías al estilo tatuaje.</p> </div> </div><div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX" data-wow-delay="0.7s"> <figure class="md:w-2/3"> <img class="w-full" src="designs/zumo1.webp" alt="Zumos De Manzana" loading="lazy"> </figure> <div class="card-body w-full"> <h2 class="card-title uppercase text-white font-black"> Zumos De Manzana </h2> <p>Etiqueta de envase para jugo de manzana, diseñada con un estilo minimalista que resalta la naturalidad y simplicidad del producto.</p> </div> </div><div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX" data-wow-delay="0.8s"> <figure class="md:w-2/3"> <img class="w-full" src="designs/zumo2.webp" alt="Zumos De Naranja" loading="lazy"> </figure> <div class="card-body w-full"> <h2 class="card-title uppercase text-white font-black"> Zumos De Naranja </h2> <p>Etiqueta de envase para jugo de naranja, con un diseño limpio y minimalista que refleja frescura y pureza.</p> </div> </div><div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX" data-wow-delay="0.9s"> <figure class="md:w-2/3"> <img class="w-full" src="designs/zumo3.webp" alt="Zumos De Uva" loading="lazy"> </figure> <div class="card-body w-full"> <h2 class="card-title uppercase text-white font-black"> Zumos De Uva </h2> <p>Etiqueta de envase para jugo de uva, caracterizada por un diseño minimalista y elegante que comunica calidad y naturalidad.</p> </div> </div><div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX" data-wow-delay="0.10s"> <figure class="md:w-2/3"> <img class="w-full" src="designs/simi.webp" alt="SIMI" loading="lazy"> </figure> <div class="card-body w-full"> <h2 class="card-title uppercase text-white font-black"> SIMI </h2> <p>Desarrollo de branding para una tienda virtual basada en dropshipping, especializada en moda y con un diseño atractivo enfocado en el público joven.</p> </div> </div><div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX" data-wow-delay="0.11s"> <figure class="md:w-2/3"> <img class="w-full" src="designs/expressAll.webp" alt="ExpressAll" loading="lazy"> </figure> <div class="card-body w-full"> <h2 class="card-title uppercase text-white font-black"> ExpressAll </h2> <p>Diseño y branding para una tienda virtual que emplea scraping para ofrecer productos de plataformas populares como Shein y Temu, optimizando la experiencia de compra.</p> </div> </div><div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX" data-wow-delay="0.12s"> <figure class="md:w-2/3"> <img class="w-full" src="designs/reApp.webp" alt="reApp" loading="lazy"> </figure> <div class="card-body w-full"> <h2 class="card-title uppercase text-white font-black"> reApp </h2> <p>Creación de un branding funcional para una herramienta multiagente de WhatsApp, diseñada para mejorar la eficiencia en la gestión de mensajes en negocios.</p> </div> </div><div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX" data-wow-delay="0.13s"> <figure class="md:w-2/3"> <img class="w-full" src="designs/studio180.webp" alt="Studio180" loading="lazy"> </figure> <div class="card-body w-full"> <h2 class="card-title uppercase text-white font-black"> Studio180 </h2> <p>Diseño de identidad visual para una agencia de marketing web, cuyo logo combina un rayo y una brújula, representando velocidad y orientación estratégica para los clientes.</p> </div> </div> </div> </div> </div> <div class="px-0 pb-4 pt-1 md:px-4" data-astro-cid-xmivup5a> <div class="flex flex-col md:p-8 p-4 gap-10 bg-slate-900 rounded-lg" data-astro-cid-xmivup5a> <h4 class="text-3xl font-bold text-slate-200" data-astro-cid-xmivup5a>
-Contactame<span class="text-blue-500" data-astro-cid-xmivup5a>__</span> </h4> <div class="flex md:flex-row flex-col md:gap-10 gap-4 wow animate__animated animate__fadeInDown" data-astro-cid-xmivup5a> <div class="border border-gray-800 rounded-lg shadow-lg p-8 w-full" data-astro-cid-xmivup5a> <h1 class="text-3xl font-light text-blue-400 mb-5" data-astro-cid-xmivup5a>Escribeme un mensaje</h1> <form action="mailto:nickdevbarrientos@gmail.com" method="post" enctype="text/plain" class="md:p-4" data-astro-cid-xmivup5a> <div class="flex gap-4" data-astro-cid-xmivup5a> <div class="form-control w-full md:w-1/2 md:mb-4 mb-2" data-astro-cid-xmivup5a> <div class="label" data-astro-cid-xmivup5a> <span class="label-text" data-astro-cid-xmivup5a>¿Tu Nombre?</span> </div> <input type="text" placeholder="Escribe aquí" id="name" name="name" required="" class="input input-bordered w-full bg-slate-900" data-astro-cid-xmivup5a> </div> <div class="form-control w-full md:w-1/2 md:mb-4 mb-2" data-astro-cid-xmivup5a> <div class="label" data-astro-cid-xmivup5a> <span class="label-text" data-astro-cid-xmivup5a>¿Tu Telefono?</span> </div> <input type="text" placeholder="+57 300 000 0000" id="telefono" name="telefono" required="" class="input input-bordered w-full bg-slate-900" data-astro-cid-xmivup5a> </div> </div> <div class="form-control w-full md:mb-4 mb-2" data-astro-cid-xmivup5a> <div class="label" data-astro-cid-xmivup5a> <span class="label-text" data-astro-cid-xmivup5a>¿Tu Correo?</span> </div> <input type="email" id="email" name="email" required="" placeholder="ejemplo@gmail.com" class="input input-bordered w-full bg-slate-900" data-astro-cid-xmivup5a> </div> <div class="form-control w-full md:mb-4 mb-2" data-astro-cid-xmivup5a> <div class="label" data-astro-cid-xmivup5a> <span class="label-text" data-astro-cid-xmivup5a>Tu Mensaje</span> </div> <textarea class="textarea textarea-bordered bg-slate-900" placeholder="Deseo solicitar mi propuesta" id="message" name="message" rows="4" required="" data-astro-cid-xmivup5a></textarea> </div> <div class="text-right" data-astro-cid-xmivup5a> <button type="submit" class="btn bg-blue-500 md:w-1/2 w-full mt-3 text-slate-100 hover:bg-blue-700" data-astro-cid-xmivup5a>Enviar
-                    mi mensaje</button> </div> </form> </div> <div class="grid md:grid-cols-1 grid-cols-3 gap-6" data-astro-cid-xmivup5a> <a href="https://wa.me/573239331730" target="_blank" data-astro-cid-xmivup5a> <div class="w-full md:p-6 p-0 md:text-left text-center bg-gray-800 border border-gray-700 rounded-lg shadow py-2 wCard" data-astro-cid-xmivup5a> <span class="iconify mb-2 mx-auto md:ms-0" data-icon="ic:round-whatsapp" data-inline="false" data-width="56" data-astro-cid-xmivup5a></span> <h5 class="md:mb-2 mb-0 md:text-2xl text-md font-semibold tracking-tight text-gray-900 dark:text-white" data-astro-cid-xmivup5a>
-WHATSAPP</h5> <p class="font-normal text-gray-200 md:block hidden" data-astro-cid-xmivup5a>Puedes escribirme
-                  vía Whtasapp
-                  para una atención mas personalizada</p> </div> </a> <a href="mailto:nickdevbarrientos@gmail.com" target="_blank" data-astro-cid-xmivup5a> <div class="w-full md:p-6 p-0 md:text-left text-center bg-gray-800 border border-gray-700 rounded-lg shadow py-2 eCard" data-astro-cid-xmivup5a> <span class="iconify mb-2 mx-auto md:ms-0" data-icon="mdi:envelope-outline" data-inline="false" data-width="56" data-astro-cid-xmivup5a></span> <h5 class="md:mb-2 mb-0 md:text-2xl text-md font-semibold tracking-tight text-gray-900 dark:text-white" data-astro-cid-xmivup5a>
-EMAIL</h5> <p class="font-normal text-gray-200 md:block hidden" data-astro-cid-xmivup5a>A traves de mi correo
-                  correo electronico recibire tus propuestas</p> </div> </a> <a href="https://www.google.com/maps/place/Centro+Comercial+Ventura+Plaza/@7.8880164,-72.4962131,17.69z/data=!4m6!3m5!1s0x8e66450aaa254789:0x5aee37baf9d024b5!8m2!3d7.887737!4d-72.4966808!16s%2Fg%2F1tjv4kq3?hl=es&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" data-astro-cid-xmivup5a> <div class="w-full md:p-6 p-0 md:text-left text-center bg-gray-800 border border-gray-700 rounded-lg shadow py-2 pCard" data-astro-cid-xmivup5a> <span class="iconify mb-2 mx-auto md:ms-0" data-icon="lucide:map-pin" data-inline="false" data-width="56" data-astro-cid-xmivup5a></span> <h5 class="md:mb-2 mb-0 md:text-2xl text-md font-semibold tracking-tight text-gray-900 dark:text-white" data-astro-cid-xmivup5a>
-PRESENCIAL</h5> <p class="font-normal text-gray-200 md:block hidden" data-astro-cid-xmivup5a>Puedes agendar una
-                  reunión presencial en Cucuta - Norte de Santander</p> </div> </a> </div> </div> </div> </div>   <a href="NickCV.pdf" download="NickCV.pdf" class="floating-button" data-astro-cid-sckkx6r4> <span class="iconify" data-icon="mdi:file-document-outline" data-astro-cid-sckkx6r4></span>
-OBTENER MI CV
-</a> </body></html>
+                creativos en experiencias web interactivas y funcionales. Mi enfoque
+                combina diseño técnico e innovación para desarrollar soluciones web
+                que destacan por su rendimiento y usabilidad excepcional.
+            </p>
+            <p
+                class="text-slate-200 text-xl font-light md:w-1/2 w-full text-justify wow animate__animated animate__flipInX">
+                Manejo tambien soluciones robustas y escalables para aplicaciones
+                web. Con experiencia en tecnologías como Node.js y PHP, desarrollo
+                API eficientes que garantizan una comunicación fluida entre el
+                cliente y el servidor. Tengo dominio en la gestión y optimización de
+                bases de datos, trabajando con MySQL y PostgreSQL para diseñar
+                esquemas sólidos y manejar transacciones de datos de manera segura.
+            </p>
+        </div>
+    </div>
+    <div class="flex flex-col md:p-14 p-4 gap-10 bg-slate-950">
+        <h4 class="text-2xl font-bold text-white">
+            EXPERIENCIA<span class="text-blue-500">__</span> </h4>
+        <div class="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-8">
+            <div class="card bg-slate-900 wow animate__animated animate__fadeInUp text-neutral-content">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-sky-500 text-2xl">SOPORTE TECNICO</h2>
+                    <h3 class="text-slate-200 text-lg hover:text-sky-500"> <a href="https://toptenfunding.com/"
+                            target="_blank">TOP TEN FUNDING</a> </h3>
+                    <div class="divider m-0"></div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            🎧 Atención al cliente
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Transformé el departamento de soporte, implementando estrategias
+                                que mejoraron la satisfacción del cliente en un 65%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            ⌨️ CRM Personalizado
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Revolucioné la gestión de clientes mediante un CRM personalizado
+                                que redujo tiempos de respuesta un 40%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            🔧 Herramientas para procesos
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Automaticé procesos con herramientas de software que eliminaron
+                                cuellos de botella operativos
+                            </p>
+                        </div>
+                    </div>
+                    <div class="divider m-0"></div>
+                    <div class="card-actions justify-end">
+                        <h3 class="text-lg text-slate-500">OCT/2023 - DIC/2024</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-slate-900 wow animate__animated animate__fadeInUp text-neutral-content">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-sky-500 text-2xl">PROGRAMADOR FRONTEND</h2>
+                    <h3 class="text-slate-200 text-lg hover:text-sky-500"> <a href="https://uxsistemas.com/"
+                            target="_blank">UX SISTEMAS</a> </h3>
+                    <div class="divider m-0"></div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            🖥️ Desarrollo de interfaces
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Diseñé interfaces interactivas que aumentaron el engagement del
+                                usuario en un 55%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">🌐 Wordpress</div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Desarrollé landing pages en WordPress que incrementaron ventas y
+                                visitas en un 60%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            📱 Interfaces responsivas
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Implementé soluciones frontend que optimizaron la experiencia
+                                digital de los clientes
+                            </p>
+                        </div>
+                    </div>
+                    <div class="divider m-0"></div>
+                    <div class="card-actions justify-end">
+                        <h3 class="text-lg text-slate-500">DIC/2022 - ABR/2023</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-slate-900 wow animate__animated animate__fadeInUp text-neutral-content">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-sky-500 text-2xl">PROGRAMADOR FULLSTACK</h2>
+                    <h3 class="text-slate-200 text-lg hover:text-sky-500"> <a href="https://app.rhinoisp.com/"
+                            target="_blank">INTERCOD</a> </h3>
+                    <div class="divider m-0"></div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            📡 CRM Redes ISP
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                🌐 Construí un sistema de gestión de redes ISP que consolidó
+                                operaciones de 3 departamentos hasta ahora
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            🐬 Optimización MYSQL
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Optimicé bases de datos MySQL reduciendo tiempos de consulta un
+                                70%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            🖱️ Desarrollo de modulos
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Implementé módulos en PHP innovadores que automatizaron procesos
+                                manuales
+                            </p>
+                        </div>
+                    </div>
+                    <div class="divider m-0"></div>
+                    <div class="card-actions justify-end">
+                        <h3 class="text-lg text-slate-500">DIC/2019 - AGO/2022</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-slate-900 wow animate__animated animate__fadeInUp text-neutral-content">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-sky-500 text-2xl">DISEÑADOR GRAFICO</h2>
+                    <h3 class="text-slate-200 text-lg hover:text-sky-500"> <a
+                            href="https://www.instagram.com/msproaudio.spa/" target="_blank">PROAUDIO AUTOSPA</a> </h3>
+                    <div class="divider m-0"></div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            👁️ Identidad visual
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Rediseñé la identidad corporativa, posicionando la marca en redes
+                                sociales
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            🎨 Marketing de redes
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Desarrollé estrategia de marketing digital que incrementó
+                                visibilidad y seguidores un 60%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            🖌️ Historias y publicaciones
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>Creé material gráfico que capturó la esencia de la marca</p>
+                        </div>
+                    </div>
+                    <div class="divider m-0"></div>
+                    <div class="card-actions justify-end">
+                        <h3 class="text-lg text-slate-500">DIC/2019 - AGO/2022</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-slate-900 wow animate__animated animate__fadeInUp text-neutral-content">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-sky-500 text-2xl">DESARROLLADOR WEB</h2>
+                    <h3 class="text-slate-200 text-lg hover:text-sky-500"> <a href="https://jxsoft.digital/"
+                            target="_blank">JXSOFT</a> </h3>
+                    <div class="divider m-0"></div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            👨‍💻 Colaborador en desarrollo
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Contribuí al diseño y desarrollo de funcionalidades clave en los
+                                proyectos de la startup, optimizando el rendimiento de las
+                                aplicaciones.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            🎨 Diseñador visual
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Creé conceptos gráficos y prototipos interactivos, asegurando una
+                                experiencia de usuario atractiva y consistente con la identidad de
+                                la marca.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            🛠️ Solución de errores
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Diagnostiqué y resolví problemas técnicos en tiempo récord,
+                                garantizando el correcto funcionamiento de los sistemas en
+                                producción.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="divider m-0"></div>
+                    <div class="card-actions justify-end">
+                        <h3 class="text-lg text-slate-500">TIEMPO PARCIAL</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-slate-900 wow animate__animated animate__fadeInUp text-neutral-content">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-sky-500 text-2xl">DESARROLLADOR FULL</h2>
+                    <h3 class="text-slate-200 text-lg hover:text-sky-500"> <a href="https://lotto.jxsoft.digital/"
+                            target="_blank">LUCKY LOTTO</a> </h3>
+                    <div class="divider m-0"></div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            📊 CRM de venta de rifas
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Implementé un sistema que gestiona de manera eficiente las ventas
+                                de rifas, desde el registro de usuarios hasta el seguimiento de
+                                transacciones.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            💳 Pasarela de pagos incluida
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Integré servicios de pago seguros y confiables, facilitando
+                                transacciones rápidas y sin interrupciones.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse text-start"> <input type="radio" name="my-accordion-1">
+                        <div class="collapse-title text-xl text-slate-400">
+                            🛠️ Panel administrativo
+                        </div>
+                        <div class="collapse-content text-slate-300">
+                            <p>
+                                Desarrollé un panel intuitivo que permite a los administradores
+                                gestionar rifas, usuarios y reportes en tiempo real.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="divider m-0"></div>
+                    <div class="card-actions justify-end">
+                        <h3 class="text-lg text-slate-500">TIEMPO PARCIAL</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col md:p-14 p-4 gap-10">
+        <h4 class="text-2xl font-bold text-white">
+            TECNOLOGIAS<span class="text-blue-500">__</span> </h4>
+        <div class="grid grid-cols-2 md:grid-cols-4">
+            <div class="card bg-zinc-950 rounded-none text-neutral-content wow animate__animated animate__flipInY"
+                data-wow-delay="0s">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-slate-600 text-2xl mb-3">
+                        FRONTEND
+                    </h2>
+                    <div class="grid grid-cols-3 gap-4"> <span class="iconify" data-icon="vscode-icons:file-type-astro"
+                            data-inline="false" data-width="56"></span> <span class="iconify"
+                            data-icon="vscode-icons:file-type-js-official" data-inline="false" data-width="56"></span>
+                        <span class="iconify" data-icon="vscode-icons:file-type-reactjs" data-inline="false"
+                            data-width="56"></span> <span class="iconify" data-icon="devicon:bootstrap"
+                            data-inline="false" data-width="56"></span> <span class="iconify"
+                            data-icon="vscode-icons:file-type-tailwind" data-inline="false" data-width="56"></span>
+                        <span class="iconify" data-icon="devicon:jquery" data-inline="false" data-width="56"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-zinc-950 rounded-none text-neutral-content wow animate__animated animate__flipInY"
+                data-wow-delay="0.4s">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-slate-600 text-2xl mb-3">BACKEND</h2>
+                    <div class="grid grid-cols-2 gap-4"> <span class="iconify" data-icon="vscode-icons:file-type-php3"
+                            data-inline="false" data-width="56"></span> <span class="iconify"
+                            data-icon="vscode-icons:file-type-node" data-inline="false" data-width="56"></span> <span
+                            class="iconify" data-icon="devicon:java" data-inline="false" data-width="56"></span> <span
+                            class="iconify" data-icon="devicon:python" data-inline="false" data-width="56"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-zinc-950 rounded-none text-neutral-content wow animate__animated animate__flipInY"
+                data-wow-delay="0.8s">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-slate-600 text-2xl mb-3">BD</h2>
+                    <div class="grid grid-cols-2 gap-4"> <span class="iconify" data-icon="vscode-icons:file-type-mysql"
+                            data-inline="false" data-width="56"></span> <span class="iconify"
+                            data-icon="devicon:postgresql" data-inline="false" data-width="56"></span> <span
+                            class="iconify" data-icon="devicon:redis" data-inline="false" data-width="56"></span> <span
+                            class="iconify" data-icon="vscode-icons:file-type-mongo" data-inline="false"
+                            data-width="56"></span> </div>
+                </div>
+            </div>
+            <div class="card bg-zinc-950 rounded-none text-neutral-content wow animate__animated animate__flipInY"
+                data-wow-delay="1.2s">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-slate-600 text-2xl mb-3">DESIGN</h2>
+                    <div class="grid grid-cols-2 gap-4"> <span class="iconify" data-icon="vscode-icons:file-type-ai"
+                            data-inline="false" data-width="56"></span> <span class="iconify"
+                            data-icon="vscode-icons:file-type-photoshop" data-inline="false" data-width="56"></span>
+                        <span class="iconify" data-icon="devicon:figma" data-inline="false" data-width="56"></span>
+                        <span class="iconify" data-icon="simple-icons:coreldraw" data-inline="false"
+                            data-width="56"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col md:py-14 py-4 gap-10 bg-slate-900" id="proyects">
+        <h4 class="text-2xl font-bold text-white md:px-14 px-4">
+            PROYECTOS<span class="text-blue-500">__</span> </h4>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <div class="swiper mySwiper" data-astro-cid-oqnn3b4m>
+            <div class="swiper-wrapper" data-astro-cid-oqnn3b4m>
+                <div class="swiper-slide" data-astro-cid-oqnn3b4m>
+                    <div class="mockup-browser bg-base-300 border border-slate-400" data-astro-cid-oqnn3b4m>
+                        <div class="mockup-browser-toolbar" data-astro-cid-oqnn3b4m>
+                            <div class="input" data-astro-cid-oqnn3b4m> <a
+                                    href="https://nickdevbar.github.io/studio180/" target="_blank"
+                                    data-astro-cid-oqnn3b4m> Studio | 180 </a> </div>
+                        </div>
+                        <div class="bg-base-200 flex justify-center " data-astro-cid-oqnn3b4m> <img
+                                src="webs/studio180.webp" loading="lazy" alt="Studio | 180"
+                                class="object-contain w-full h-auto" data-astro-cid-oqnn3b4m> </div>
+                    </div>
+                    <div class="md:p-6 p-3 md:text-start text-center" data-astro-cid-oqnn3b4m> <a
+                            href="https://nickdevbar.github.io/studio180/" target="_blank"
+                            class="flex md:justify-start justify-center items-center" data-astro-cid-oqnn3b4m>
+                            <h4 class="text-blue-500 font-black uppercase md:text-3xl text-xl" data-astro-cid-oqnn3b4m>
+                                Studio | 180 </h4> <span class="iconify text-blue-500 ms-2"
+                                data-icon="ion:arrow-up-right-box-outline" data-inline="false" data-width="24"
+                                data-astro-cid-oqnn3b4m></span>
+                        </a>
+                        <div class="flex flex-wrap gap-3 my-4 md:justify-start justify-center" data-astro-cid-oqnn3b4m>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> HTML </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> Tailwind </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> jQuery </div>
+                        </div>
+                        <p class=" text-slate-200 text-lg md:block hidden" data-astro-cid-oqnn3b4m> Landing Page para
+                            agencia especializada en marketing digital, desarrollo web y diseño gráfico. Este proyecto
+                            exhibe un portafolio integral de servicios que incluyen estrategias SEO, campañas
+                            publicitarias y creación de identidades visuales, destacando por su enfoque en potenciar
+                            negocios online. </p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-astro-cid-oqnn3b4m>
+                    <div class="mockup-browser bg-base-300 border border-slate-400" data-astro-cid-oqnn3b4m>
+                        <div class="mockup-browser-toolbar" data-astro-cid-oqnn3b4m>
+                            <div class="input" data-astro-cid-oqnn3b4m> <a href="https://elmaestroexperto.com/"
+                                    target="_blank" data-astro-cid-oqnn3b4m> Maestro Apuesta </a> </div>
+                        </div>
+                        <div class="bg-base-200 flex justify-center " data-astro-cid-oqnn3b4m> <img
+                                src="webs/elmaestro.webp" loading="lazy" alt="Maestro Apuesta"
+                                class="object-contain w-full h-auto" data-astro-cid-oqnn3b4m> </div>
+                    </div>
+                    <div class="md:p-6 p-3 md:text-start text-center" data-astro-cid-oqnn3b4m> <a
+                            href="https://elmaestroexperto.com/" target="_blank"
+                            class="flex md:justify-start justify-center items-center" data-astro-cid-oqnn3b4m>
+                            <h4 class="text-blue-500 font-black uppercase md:text-3xl text-xl" data-astro-cid-oqnn3b4m>
+                                Maestro Apuesta </h4> <span class="iconify text-blue-500 ms-2"
+                                data-icon="ion:arrow-up-right-box-outline" data-inline="false" data-width="24"
+                                data-astro-cid-oqnn3b4m></span>
+                        </a>
+                        <div class="flex flex-wrap gap-3 my-4 md:justify-start justify-center" data-astro-cid-oqnn3b4m>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> HTML </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> Tailwind </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> jQuery </div>
+                        </div>
+                        <p class=" text-slate-200 text-lg md:block hidden" data-astro-cid-oqnn3b4m> Landing para un
+                            profesional en las apuestas, promocionando su canal de Telegram donde comparte las apuestas
+                            tomadas y explicación de las mismas. </p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-astro-cid-oqnn3b4m>
+                    <div class="mockup-browser bg-base-300 border border-slate-400" data-astro-cid-oqnn3b4m>
+                        <div class="mockup-browser-toolbar" data-astro-cid-oqnn3b4m>
+                            <div class="input" data-astro-cid-oqnn3b4m> <a
+                                    href="https://nickdevbar.github.io/trxacademy/" target="_blank"
+                                    data-astro-cid-oqnn3b4m> TRX Academy </a> </div>
+                        </div>
+                        <div class="bg-base-200 flex justify-center " data-astro-cid-oqnn3b4m> <img src="webs/trx.webp"
+                                loading="lazy" alt="TRX Academy" class="object-contain w-full h-auto"
+                                data-astro-cid-oqnn3b4m> </div>
+                    </div>
+                    <div class="md:p-6 p-3 md:text-start text-center" data-astro-cid-oqnn3b4m> <a
+                            href="https://nickdevbar.github.io/trxacademy/" target="_blank"
+                            class="flex md:justify-start justify-center items-center" data-astro-cid-oqnn3b4m>
+                            <h4 class="text-blue-500 font-black uppercase md:text-3xl text-xl" data-astro-cid-oqnn3b4m>
+                                TRX Academy </h4> <span class="iconify text-blue-500 ms-2"
+                                data-icon="ion:arrow-up-right-box-outline" data-inline="false" data-width="24"
+                                data-astro-cid-oqnn3b4m></span>
+                        </a>
+                        <div class="flex flex-wrap gap-3 my-4 md:justify-start justify-center" data-astro-cid-oqnn3b4m>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> HTML </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> Tailwind </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> jQuery </div>
+                        </div>
+                        <p class=" text-slate-200 text-lg md:block hidden" data-astro-cid-oqnn3b4m> Una landing page que
+                            presenta los servicios educativos de un profesor de trading. El diseño se centra en
+                            comunicar claramente la experiencia y las ofertas disponibles, proporcionando información
+                            clave para aquellos interesados en aprender sobre mercados financieros y estrategias de
+                            inversión. </p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-astro-cid-oqnn3b4m>
+                    <div class="mockup-browser bg-base-300 border border-slate-400" data-astro-cid-oqnn3b4m>
+                        <div class="mockup-browser-toolbar" data-astro-cid-oqnn3b4m>
+                            <div class="input" data-astro-cid-oqnn3b4m> <a href="https://toptenfunding.com/"
+                                    target="_blank" data-astro-cid-oqnn3b4m> Top Ten Funding </a> </div>
+                        </div>
+                        <div class="bg-base-200 flex justify-center " data-astro-cid-oqnn3b4m> <img
+                                src="webs/topten.webp" loading="lazy" alt="Top Ten Funding"
+                                class="object-contain w-full h-auto" data-astro-cid-oqnn3b4m> </div>
+                    </div>
+                    <div class="md:p-6 p-3 md:text-start text-center" data-astro-cid-oqnn3b4m> <a
+                            href="https://toptenfunding.com/" target="_blank"
+                            class="flex md:justify-start justify-center items-center" data-astro-cid-oqnn3b4m>
+                            <h4 class="text-blue-500 font-black uppercase md:text-3xl text-xl" data-astro-cid-oqnn3b4m>
+                                Top Ten Funding </h4> <span class="iconify text-blue-500 ms-2"
+                                data-icon="ion:arrow-up-right-box-outline" data-inline="false" data-width="24"
+                                data-astro-cid-oqnn3b4m></span>
+                        </a>
+                        <div class="flex flex-wrap gap-3 my-4 md:justify-start justify-center" data-astro-cid-oqnn3b4m>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> PHP </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> MySQL </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> jQuery </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> Redis </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> NodeJS </div>
+                        </div>
+                        <p class=" text-slate-200 text-lg md:block hidden" data-astro-cid-oqnn3b4m> Una landing page que
+                            presenta los servicios educativos de un profesor de trading. El diseño se centra en
+                            comunicar claramente la experiencia y las ofertas disponibles, proporcionando información
+                            clave para aquellos interesados en aprender sobre mercados financieros y estrategias de
+                            inversión. </p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-astro-cid-oqnn3b4m>
+                    <div class="mockup-browser bg-base-300 border border-slate-400" data-astro-cid-oqnn3b4m>
+                        <div class="mockup-browser-toolbar" data-astro-cid-oqnn3b4m>
+                            <div class="input" data-astro-cid-oqnn3b4m> <a href="https://lotto.jxsoft.digital/"
+                                    target="_blank" data-astro-cid-oqnn3b4m> Lucky Lotto </a> </div>
+                        </div>
+                        <div class="bg-base-200 flex justify-center " data-astro-cid-oqnn3b4m> <img
+                                src="webs/luckyLotto.webp" loading="lazy" alt="Lucky Lotto"
+                                class="object-contain w-full h-auto" data-astro-cid-oqnn3b4m> </div>
+                    </div>
+                    <div class="md:p-6 p-3 md:text-start text-center" data-astro-cid-oqnn3b4m> <a
+                            href="https://lotto.jxsoft.digital/" target="_blank"
+                            class="flex md:justify-start justify-center items-center" data-astro-cid-oqnn3b4m>
+                            <h4 class="text-blue-500 font-black uppercase md:text-3xl text-xl" data-astro-cid-oqnn3b4m>
+                                Lucky Lotto </h4> <span class="iconify text-blue-500 ms-2"
+                                data-icon="ion:arrow-up-right-box-outline" data-inline="false" data-width="24"
+                                data-astro-cid-oqnn3b4m></span>
+                        </a>
+                        <div class="flex flex-wrap gap-3 my-4 md:justify-start justify-center" data-astro-cid-oqnn3b4m>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> PHP </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> MySQL </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> Bootstrap </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> jQuery </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> ePayco </div>
+                        </div>
+                        <p class=" text-slate-200 text-lg md:block hidden" data-astro-cid-oqnn3b4m> Una aplicación
+                            interactiva para participar en sorteos y loterías. Su diseño centrado en el usuario permite
+                            una navegación fluida, incluyendo pasarela de pagos, y automatizaciones para mejorar la
+                            experiencia de usuario, como la selección del ganador y la verificación en las
+                            transacciones. </p>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-astro-cid-oqnn3b4m>
+                    <div class="mockup-browser bg-base-300 border border-slate-400" data-astro-cid-oqnn3b4m>
+                        <div class="mockup-browser-toolbar" data-astro-cid-oqnn3b4m>
+                            <div class="input" data-astro-cid-oqnn3b4m> <a href="https://tatantrading.lat/"
+                                    target="_blank" data-astro-cid-oqnn3b4m> Tatan Trader </a> </div>
+                        </div>
+                        <div class="bg-base-200 flex justify-center " data-astro-cid-oqnn3b4m> <img
+                                src="webs/tatan.webp" loading="lazy" alt="Tatan Trader"
+                                class="object-contain w-full h-auto" data-astro-cid-oqnn3b4m> </div>
+                    </div>
+                    <div class="md:p-6 p-3 md:text-start text-center" data-astro-cid-oqnn3b4m> <a
+                            href="https://tatantrading.lat/" target="_blank"
+                            class="flex md:justify-start justify-center items-center" data-astro-cid-oqnn3b4m>
+                            <h4 class="text-blue-500 font-black uppercase md:text-3xl text-xl" data-astro-cid-oqnn3b4m>
+                                Tatan Trader </h4> <span class="iconify text-blue-500 ms-2"
+                                data-icon="ion:arrow-up-right-box-outline" data-inline="false" data-width="24"
+                                data-astro-cid-oqnn3b4m></span>
+                        </a>
+                        <div class="flex flex-wrap gap-3 my-4 md:justify-start justify-center" data-astro-cid-oqnn3b4m>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> HTML </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> Tailwind </div>
+                            <div class="border border-blue-300 rounded-full px-3 py-1 text-blue-300 text-sm"
+                                data-astro-cid-oqnn3b4m> jQuery </div>
+                        </div>
+                        <p class=" text-slate-200 text-lg md:block hidden" data-astro-cid-oqnn3b4m> Sitio estatico para
+                            presentar los servicios de posiciones y señales de Tatan Trader, comparte sus asesorias a
+                            traves de Telegram y sus casos de exito. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination" data-astro-cid-oqnn3b4m></div>
+        </div> <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                var swiper = new Swiper(".mySwiper", {
+                    effect: "coverflow",
+                    centeredSlides: true,
+                    slidesPerView: "auto",
+                    coverflowEffect: {
+                        rotate: 50,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: false,
+                    },
+                    loop: true,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        dynamicBullets: true,
+                    },
+                });
+            });
+        </script>
+    </div>
+    <div class="flex flex-col md:p-14 p-4 gap-10" id="disenos">
+        <h4 class="text-2xl font-bold text-white">
+            DISEÑOS<span class="text-blue-500">__</span> </h4>
+        <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-6">
+            <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX"
+                data-wow-delay="0.0s">
+                <figure class="md:w-2/3"> <img class="w-full" src="designs/bahia.webp" alt="POST BAHIA" loading="lazy">
+                </figure>
+                <div class="card-body w-full">
+                    <h2 class="card-title uppercase text-white font-black"> POST BAHIA </h2>
+                    <p>Explora la fusión de ingredientes locales y la pasión por la cerveza artesanal, experimentando
+                        con nuevas técnicas e innovadores sabores.</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX"
+                data-wow-delay="0.1s">
+                <figure class="md:w-2/3"> <img class="w-full" src="designs/erickGabriel.webp" alt="Erick Gabriel"
+                        loading="lazy"> </figure>
+                <div class="card-body w-full">
+                    <h2 class="card-title uppercase text-white font-black"> Erick Gabriel </h2>
+                    <p>Diseño de un logo personal que incluye una paleta de colores cuidadosamente seleccionada,
+                        tipografías únicas y formatos versátiles.</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX"
+                data-wow-delay="0.2s">
+                <figure class="md:w-2/3"> <img class="w-full" src="designs/tatianaBarrientos.webp"
+                        alt="Fresas Con Crema" loading="lazy"> </figure>
+                <div class="card-body w-full">
+                    <h2 class="card-title uppercase text-white font-black"> Fresas Con Crema </h2>
+                    <p>Creación de un logo comercial que refleja dulzura y frescura, con una paleta de colores armónica,
+                        fuentes atractivas y múltiples formatos.</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX"
+                data-wow-delay="0.3s">
+                <figure class="md:w-2/3"> <img class="w-full" src="designs/proaudio.webp" alt="ProAudio AutoSpa"
+                        loading="lazy"> </figure>
+                <div class="card-body w-full">
+                    <h2 class="card-title uppercase text-white font-black"> ProAudio AutoSpa </h2>
+                    <p>Diseño de un logo empresarial que transmite profesionalismo y modernidad, acompañado de una
+                        paleta cromática y fuentes elegantes.</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX"
+                data-wow-delay="0.4s">
+                <figure class="md:w-2/3"> <img class="w-full" src="designs/tatiana.webp" alt="Tatiana Barrientos"
+                        loading="lazy"> </figure>
+                <div class="card-body w-full">
+                    <h2 class="card-title uppercase text-white font-black"> Tatiana Barrientos </h2>
+                    <p>Diseño de un logo comercial para una tienda de ropa, enfocado en estilo y moda, destacando la
+                        identidad única de la marca.</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX"
+                data-wow-delay="0.5s">
+                <figure class="md:w-2/3"> <img class="w-full" src="designs/tso.webp" alt="TSO" loading="lazy"> </figure>
+                <div class="card-body w-full">
+                    <h2 class="card-title uppercase text-white font-black"> TSO </h2>
+                    <p>Logo empresarial con estética minimalista, inspirado en el barco de Teseo para simbolizar
+                        renovación, reestructuración y reinvención.</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX"
+                data-wow-delay="0.6s">
+                <figure class="md:w-2/3"> <img class="w-full" src="designs/tuTattoo.webp" alt="TuTattoo" loading="lazy">
+                </figure>
+                <div class="card-body w-full">
+                    <h2 class="card-title uppercase text-white font-black"> TuTattoo </h2>
+                    <p>Diseño de un logo comercial para una tienda de tatuajes, destacando estilos tradicionales como
+                        mandalas y tipografías al estilo tatuaje.</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX"
+                data-wow-delay="0.7s">
+                <figure class="md:w-2/3"> <img class="w-full" src="designs/zumo1.webp" alt="Zumos De Manzana"
+                        loading="lazy"> </figure>
+                <div class="card-body w-full">
+                    <h2 class="card-title uppercase text-white font-black"> Zumos De Manzana </h2>
+                    <p>Etiqueta de envase para jugo de manzana, diseñada con un estilo minimalista que resalta la
+                        naturalidad y simplicidad del producto.</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX"
+                data-wow-delay="0.8s">
+                <figure class="md:w-2/3"> <img class="w-full" src="designs/zumo2.webp" alt="Zumos De Naranja"
+                        loading="lazy"> </figure>
+                <div class="card-body w-full">
+                    <h2 class="card-title uppercase text-white font-black"> Zumos De Naranja </h2>
+                    <p>Etiqueta de envase para jugo de naranja, con un diseño limpio y minimalista que refleja frescura
+                        y pureza.</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX"
+                data-wow-delay="0.9s">
+                <figure class="md:w-2/3"> <img class="w-full" src="designs/zumo3.webp" alt="Zumos De Uva"
+                        loading="lazy"> </figure>
+                <div class="card-body w-full">
+                    <h2 class="card-title uppercase text-white font-black"> Zumos De Uva </h2>
+                    <p>Etiqueta de envase para jugo de uva, caracterizada por un diseño minimalista y elegante que
+                        comunica calidad y naturalidad.</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX"
+                data-wow-delay="0.10s">
+                <figure class="md:w-2/3"> <img class="w-full" src="designs/simi.webp" alt="SIMI" loading="lazy">
+                </figure>
+                <div class="card-body w-full">
+                    <h2 class="card-title uppercase text-white font-black"> SIMI </h2>
+                    <p>Desarrollo de branding para una tienda virtual basada en dropshipping, especializada en moda y
+                        con un diseño atractivo enfocado en el público joven.</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX"
+                data-wow-delay="0.11s">
+                <figure class="md:w-2/3"> <img class="w-full" src="designs/expressAll.webp" alt="ExpressAll"
+                        loading="lazy"> </figure>
+                <div class="card-body w-full">
+                    <h2 class="card-title uppercase text-white font-black"> ExpressAll </h2>
+                    <p>Diseño y branding para una tienda virtual que emplea scraping para ofrecer productos de
+                        plataformas populares como Shein y Temu, optimizando la experiencia de compra.</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX"
+                data-wow-delay="0.12s">
+                <figure class="md:w-2/3"> <img class="w-full" src="designs/reApp.webp" alt="reApp" loading="lazy">
+                </figure>
+                <div class="card-body w-full">
+                    <h2 class="card-title uppercase text-white font-black"> reApp </h2>
+                    <p>Creación de un branding funcional para una herramienta multiagente de WhatsApp, diseñada para
+                        mejorar la eficiencia en la gestión de mensajes en negocios.</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-slate-900 shadow-xl wow animate__animated animate__flipInX"
+                data-wow-delay="0.13s">
+                <figure class="md:w-2/3"> <img class="w-full" src="designs/studio180.webp" alt="Studio180"
+                        loading="lazy"> </figure>
+                <div class="card-body w-full">
+                    <h2 class="card-title uppercase text-white font-black"> Studio180 </h2>
+                    <p>Diseño de identidad visual para una agencia de marketing web, cuyo logo combina un rayo y una
+                        brújula, representando velocidad y orientación estratégica para los clientes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col md:p-14 p-4 gap-10 bg-slate-900" data-astro-cid-xmivup5a>
+        <h4 class="text-2xl font-bold text-white" data-astro-cid-xmivup5a>
+            CONTACTAME<span class="text-blue-500" data-astro-cid-xmivup5a>__</span> </h4>
+        <div class="flex md:flex-row flex-col md:gap-10 gap-4 wow animate__animated animate__fadeInDown"
+            data-astro-cid-xmivup5a>
+            <div class="border border-gray-800 rounded-lg shadow-lg p-8 w-full" data-astro-cid-xmivup5a>
+                <h1 class="text-3xl font-light text-blue-400 mb-5" data-astro-cid-xmivup5a>
+                    Escribeme un mensaje
+                </h1>
+                <form action="mailto:nickdevbarrientos@gmail.com" method="post" enctype="text/plain" class="md:p-4"
+                    data-astro-cid-xmivup5a>
+                    <div class="flex gap-4" data-astro-cid-xmivup5a>
+                        <div class="form-control w-full md:w-1/2 md:mb-4 mb-2" data-astro-cid-xmivup5a>
+                            <div class="label" data-astro-cid-xmivup5a> <span class="label-text"
+                                    data-astro-cid-xmivup5a>¿Tu Nombre?</span> </div> <input type="text"
+                                placeholder="Escribe aquí" id="name" name="name" required=""
+                                class="input input-bordered w-full bg-slate-900" data-astro-cid-xmivup5a>
+                        </div>
+                        <div class="form-control w-full md:w-1/2 md:mb-4 mb-2" data-astro-cid-xmivup5a>
+                            <div class="label" data-astro-cid-xmivup5a> <span class="label-text"
+                                    data-astro-cid-xmivup5a>¿Tu Telefono?</span> </div> <input type="text"
+                                placeholder="+57 300 000 0000" id="telefono" name="telefono" required=""
+                                class="input input-bordered w-full bg-slate-900" data-astro-cid-xmivup5a>
+                        </div>
+                    </div>
+                    <div class="form-control w-full md:mb-4 mb-2" data-astro-cid-xmivup5a>
+                        <div class="label" data-astro-cid-xmivup5a> <span class="label-text" data-astro-cid-xmivup5a>¿Tu
+                                Correo?</span> </div> <input type="email" id="email" name="email" required=""
+                            placeholder="ejemplo@gmail.com" class="input input-bordered w-full bg-slate-900"
+                            data-astro-cid-xmivup5a>
+                    </div>
+                    <div class="form-control w-full md:mb-4 mb-2" data-astro-cid-xmivup5a>
+                        <div class="label" data-astro-cid-xmivup5a> <span class="label-text" data-astro-cid-xmivup5a>Tu
+                                Mensaje</span> </div> <textarea class="textarea textarea-bordered bg-slate-900"
+                            placeholder="Deseo solicitar mi propuesta" id="message" name="message" rows="4" required=""
+                            data-astro-cid-xmivup5a></textarea>
+                    </div>
+                    <div class="text-right" data-astro-cid-xmivup5a> <button type="submit"
+                            class="btn bg-blue-500 md:w-1/2 w-full mt-3 text-slate-100 hover:bg-blue-700"
+                            data-astro-cid-xmivup5a>Enviar mi mensaje</button> </div>
+                </form>
+            </div>
+            <div class="grid md:grid-cols-1 grid-cols-3 gap-6" data-astro-cid-xmivup5a> <a
+                    href="https://wa.me/573239331730" target="_blank" data-astro-cid-xmivup5a>
+                    <div class="w-full md:p-6 p-0 md:text-left text-center bg-gray-800 border border-gray-700 rounded-lg shadow py-2 wCard"
+                        data-astro-cid-xmivup5a> <span class="iconify mb-2 mx-auto md:ms-0"
+                            data-icon="ic:round-whatsapp" data-inline="false" data-width="56"
+                            data-astro-cid-xmivup5a></span>
+                        <h5 class="md:mb-2 mb-0 md:text-2xl text-md font-semibold tracking-tight text-gray-900 dark:text-white"
+                            data-astro-cid-xmivup5a>
+                            WHATSAPP
+                        </h5>
+                        <p class="font-normal text-gray-200 md:block hidden" data-astro-cid-xmivup5a>
+                            Puedes escribirme vía Whtasapp para una atención mas personalizada
+                        </p>
+                    </div>
+                </a> <a href="mailto:nickdevbarrientos@gmail.com" target="_blank" data-astro-cid-xmivup5a>
+                    <div class="w-full md:p-6 p-0 md:text-left text-center bg-gray-800 border border-gray-700 rounded-lg shadow py-2 eCard"
+                        data-astro-cid-xmivup5a> <span class="iconify mb-2 mx-auto md:ms-0"
+                            data-icon="mdi:envelope-outline" data-inline="false" data-width="56"
+                            data-astro-cid-xmivup5a></span>
+                        <h5 class="md:mb-2 mb-0 md:text-2xl text-md font-semibold tracking-tight text-gray-900 dark:text-white"
+                            data-astro-cid-xmivup5a>
+                            EMAIL
+                        </h5>
+                        <p class="font-normal text-gray-200 md:block hidden" data-astro-cid-xmivup5a>
+                            A traves de mi correo correo electronico recibire tus propuestas
+                        </p>
+                    </div>
+                </a> <a
+                    href="https://www.google.com/maps/place/Centro+Comercial+Ventura+Plaza/@7.8880164,-72.4962131,17.69z/data=!4m6!3m5!1s0x8e66450aaa254789:0x5aee37baf9d024b5!8m2!3d7.887737!4d-72.4966808!16s%2Fg%2F1tjv4kq3?hl=es&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank" data-astro-cid-xmivup5a>
+                    <div class="w-full md:p-6 p-0 md:text-left text-center bg-gray-800 border border-gray-700 rounded-lg shadow py-2 pCard"
+                        data-astro-cid-xmivup5a> <span class="iconify mb-2 mx-auto md:ms-0" data-icon="lucide:map-pin"
+                            data-inline="false" data-width="56" data-astro-cid-xmivup5a></span>
+                        <h5 class="md:mb-2 mb-0 md:text-2xl text-md font-semibold tracking-tight text-gray-900 dark:text-white"
+                            data-astro-cid-xmivup5a>
+                            PRESENCIAL
+                        </h5>
+                        <p class="font-normal text-gray-200 md:block hidden" data-astro-cid-xmivup5a>
+                            Puedes agendar una reunión presencial en Cucuta - Norte de Santander
+                        </p>
+                    </div>
+                </a> </div>
+        </div>
+    </div> <a href="NickCV.pdf" download="NickCV.pdf" class="floating-button" data-astro-cid-sckkx6r4> <span
+            class="iconify" data-icon="mdi:file-document-outline" data-astro-cid-sckkx6r4></span>
+        OBTENER MI CV
+    </a>
+</body>
+
+</html>
